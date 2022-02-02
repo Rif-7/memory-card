@@ -1,3 +1,61 @@
 body {
-  margin: 0
+  margin: 0;
+  font-family: monospace;
+  background-color: #555;
+}
+
+.navbar {
+  height: 70px;
+  background-color: #1f2937;
+  color: white;
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.score-board {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  font-size: 24px;
+  
+}
+
+.current-score, .high-score {
+  color: white;
+  padding: 3px 6px;
+  background-color: #888;
+  border-radius: 4px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+.image {
+  width: 180px;
+  height: 200px;
+  border-radius: 4px;
+}
+
+.img-container {
+  text-align: center;
+  border-radius: 4px;
+  border: 8px solid #1f2937;
+  background-color: #1f2937;
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+  transition: 100ms;
+}
+
+.img-container:hover {
+  box-shadow: -5px 5px 5px#888;
+  transform: translate(1%, -1%);
 }
