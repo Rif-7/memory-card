@@ -1,1 +1,1 @@
-A Memory Card game where try to pick cards that you previously didn't.
+A Memory Card game where try to pick cards that you previously haven't.
